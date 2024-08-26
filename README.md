@@ -1,4 +1,4 @@
-# 🍔 Ejemplos de "Cards" con CSS y HTML
+# Ejemplos de "Cards" con CSS y HTML
 
 Este repositorio proporciona múltiples ejemplos de cards dinámicos y visualmente atractivos utilizando solo HTML y CSS. Las cards son componentes clave en diseño web moderno, utilizados comúnmente para destacar contenido como productos, perfiles de usuario, o artículos de blogs. Aquí aprenderás a crear una variedad de cards con efectos interactivos, transiciones suaves y diseños estilizados que mejoran la experiencia de usuario y la apariencia de tus proyectos web.
 
