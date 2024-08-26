@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>Cards 1 - Jimmmy.dev</title>
+	<style>
+		body {
+		  background-color: #000;
+		  font-family: arial;
+		}
+		
+		.container{
+			width: 800px;
+			margin:auto;
+		}
+		
+		.box {
+			width: 300px;
+			display: inline-block;
+		}
+
+		.item {
+		  -ms-flex-preferred-size: calc(33.33333% - 30px);
+		  flex-basis: calc(33.33333% - 30px);
+		  margin: 0 15px 30px;
+		  overflow: hidden;
+		  border-radius: 28px;
+		}
+
+		.item_link {
+		  display: block;
+		  padding: 30px 20px;
+		  background-color: #121212;
+		  overflow: hidden;
+		  position: relative;
+		}
+
+		.item_link:hover .item_bg {
+		  -webkit-transform: scale(10);
+		  -ms-transform: scale(10);
+		  transform: scale(10);
+		}
+
+		.item_title {
+		  min-height: 87px;
+		  margin: 0 0 25px;
+		  overflow: hidden;
+		  font-weight: bold;
+		  font-size: 30px;
+		  color: #FFF;
+		  z-index: 2;
+		  position: relative;
+		}
+
+		.item_bg {
+		  height: 128px;
+		  width: 128px;
+		  z-index: 1;
+		  position: absolute;
+		  top: -75px;
+		  right: -75px;
+		  border-radius: 50%;
+		  -webkit-transition: all .5s ease;
+		  -o-transition: all .5s ease;
+		  transition: all .5s ease;
+		}			
+	</style>
+</head>
+<body>
+	<div class="container">
+	  <div class="box">
+		<div class="item">
+		  <div class="item_link">
+			<div class="item_bg" style="background-color: #f9b234;"></div>
+			<div class="item_title">
+			  Pasa por encima para ver el efecto
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="box">
+		<div class="item">
+		  <div class="item_link">
+			<div class="item_bg" style="background-color: #3ecd5e;"></div>
+			<div class="item_title">
+			  Pasa por encima para ver el efecto
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="box">
+		<div class="item">
+		  <div class="item_link">
+			<div class="item_bg" style="background-color: #e44002;"></div>
+			<div class="item_title">
+			  Pasa por encima para ver el efecto
+			</div>
+		  </div>
+		</div>
+	  </div>
+	
+	  <div class="box">
+		<div class="item">
+		  <div class="item_link">
+			<div class="item_bg" style="background-color: #952aff;"></div>
+			<div class="item_title">
+			  Pasa por encima para ver el efecto
+			</div>
+		  </div>
+		</div>
+	  </div>	
+	</div>
+</body>
+</html>
